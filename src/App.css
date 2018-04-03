@@ -1,0 +1,24 @@
+.app {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: start;
+  background: #fff;
+  color: #333;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.app-footer {
+  padding-bottom: 5px;
+  align-self: end;
+  justify-self: center;
+  font-style: italic;
+  font-size: 0.5rem;
+  color: #69899e;
+}
