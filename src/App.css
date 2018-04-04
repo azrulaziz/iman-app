@@ -16,9 +16,10 @@
 
 .app-footer {
   padding-bottom: 5px;
+  padding-right: 10px;
   align-self: end;
-  justify-self: center;
+  justify-self: end;
   font-style: italic;
   font-size: 0.5rem;
-  color: #69899e;
+  color: rgb(180, 180, 180);
 }

@@ -3,7 +3,7 @@ import './App.css';
 import Location from './components/Location';
 import Display from './components/Display';
 import Menu from './components/Menu';
-
+// todo: Transition during location change. 
 const location = {
   area: ['Kuala Lumpur', 'Labuan', 'Putrajaya', 'Shah Alam', 'Pulau Pinang', 'Johor Bahru', 'Kota Bharu', 'Kuching']
 }

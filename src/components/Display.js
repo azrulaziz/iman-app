@@ -1,15 +1,18 @@
 import React from 'react';
+import Clock from './Clock';
 import moment from 'moment';
 import '../styles/display.css'
 import {TiWeatherCloudy, TiWeatherNight, TiWeatherPartlySunny, TiWeatherSunny, TiWeatherWindyCloudy, TiStarOutline} from 'react-icons/lib/ti';
 
 const Display = (prop) => {
     const {resultTimes, currLocation} = prop;
+    console.log(resultTimes[0]);
     if(!resultTimes) return null;
     return (
         <div className="display">
             <div className="display-info">
-            <p className="display-date">{moment().format('MMMM Do YYYY')}</p>
+                
+                <Clock/>
                 <h2 className="display-header">
                     {currLocation}
                 </h2>
