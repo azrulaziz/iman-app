@@ -2,7 +2,7 @@
 
 http://iman-app.netlify.com/
 
-A Clean & minimalist site providing prayer times for muslims in Malaysia.
+A Clean & minimalist site providing prayer times for muslims in Malaysia in several major cities.
 
 Inspired by iman mobile app on iphone.
 
