@@ -8,4 +8,4 @@ Inspired by iman mobile app on iphone.
 
 Prayer times API source by https://mpt.i906.my/index.html 
 
-*pending fix with issues on IOS mobile safari*
+**pending fix for issues on IOS mobile safari*
